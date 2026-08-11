@@ -221,6 +221,16 @@ p { margin: 0; }
 
 .nav-cta { display: flex; align-items: center; gap: 14px; }
 
+.nav-login {
+    font-size: 0.92rem;
+    font-weight: 500;
+    color: var(--ivory);
+    text-decoration: none;
+    transition: color 140ms ease;
+}
+
+.nav-login:hover { text-decoration: underline; }
+
 .nav-toggle {
     display: none;
     background: none;
