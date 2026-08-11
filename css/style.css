@@ -219,7 +219,7 @@ p { margin: 0; }
 
 .nav-links a:hover { text-decoration: underline; }
 
-.nav-cta { display: flex; align-items: center; gap: 14px; }
+.nav-cta { display: flex; align-items: center; gap: 22px; }
 
 .nav-login {
     font-size: 0.92rem;
