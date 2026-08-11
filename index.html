@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hevo - Inteligência humana e artificial para vender eventos</title>
+<meta name="description" content="Hevo qualifica leads de casamentos e eventos no WhatsApp em segundos, agenda visitas sozinha e só chama sua equipe quando realmente importa.">
+<link rel="icon" type="image/png" href="assets/img/hevo-mark.png">
+<link rel="stylesheet" href="assets/fonts/fonts.local.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+    <div class="wrap">
+        <a href="#top" class="brand">
+            <img class="brand-mark" src="assets/img/white_hevo_logo.png" alt="hevo">
+        </a>
+        <div class="nav-links">
+            <a href="#produto">Produto</a>
+            <a href="#como-funciona">Como funciona</a>
+            <a href="#depoimentos">Depoimentos</a>
+            <a href="#contato">Contato</a>
+        </div>
+        <div class="nav-cta">
+            <a class="btn btn-primary" href="#contato">Peça uma demonstração</a>
+            <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<header class="hero" id="top">
+    <div class="wrap">
+        <div class="hero-copy">
+            <span class="eyebrow">Inteligência humana e artificial para vender eventos</span>
+            <h1>Enquanto você dorme,<br> a <em>Hevo</em> já qualificou<br> o próximo evento.</h1>
+            <p class="lede">
+                A Hevo responde no WhatsApp na hora, entende o que o cliente precisa,
+                agenda a visita e só chama sua equipe quando o lead está pronto pra
+                fechar. Sem plantão 24h, sem mensagem esquecida.
+            </p>
+            <div class="hero-actions">
+                <a class="btn btn-primary btn-lg" href="#contato">Peça uma demonstração</a>
+                <a class="btn btn-ghost btn-lg" href="#como-funciona">Ver como funciona</a>
+            </div>
+            <p class="hero-note">Configuração feita com você — sem cartão, sem compromisso.</p>
+            <div class="hero-proof">
+                <div>
+                    <strong>&lt; 15s</strong>
+                    <span>tempo médio de 1ª resposta</span>
+                </div>
+                <div>
+                    <strong>24/7</strong>
+                    <span>qualificando leads, todo dia</span>
+                </div>
+                <div>
+                    <strong>100%</strong>
+                    <span>dos leads chegam no seu funil</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-stage">
+            <div class="hero-badge b1">
+                <span class="dot"></span>
+                <div>Visita agendada<br><small>sábado, 10h</small></div>
+            </div>
+            <div class="phone-frame">
+                <div class="phone-screen">
+                    <div class="chat-head">
+                        <span class="avatar">
+                            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3 L13.8 10.2 L21 12 L13.8 13.8 L12 21 L10.2 13.8 L3 12 L10.2 10.2 Z" fill="#206172"/></svg>
+                        </span>
+                        <div>
+                            <div class="chat-head-name">Espaço Villa Rosa</div>
+                            <div class="chat-head-status">respondido pela Hevo</div>
+                        </div>
+                    </div>
+                    <div class="chat-body" id="hero-chat-body"></div>
+                    <div class="chat-foot">
+                        <div class="field"></div>
+                        <div class="send"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-badge b2">
+                <span class="dot"></span>
+                <div>Score do lead: 91<br><small>alta intenção de compra</small></div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="section section-ivory" id="dor">
+    <div class="wrap">
+        <div class="section-head reveal">
+            <span class="eyebrow">O problema</span>
+            <h2>Todo lead perdido já foi um "responde depois".</h2>
+            <p>
+                Casais decidem rápido e mandam mensagem pra vários espaços ao mesmo
+                tempo. Quem responde primeiro — e bem — sai na frente. O resto do
+                trabalho da sua equipe também sofre com isso.
+            </p>
+        </div>
+        <div class="pain-grid">
+            <div class="pain-card reveal">
+                <span class="glyph">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg>
+                </span>
+                <h3>Mensagem chega às 23h</h3>
+                <p>Ninguém da equipe está de plantão — o cliente espera até o outro dia, ou já está falando com o concorrente.</p>
+            </div>
+            <div class="pain-card reveal">
+                <span class="glyph">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V6a2 2 0 0 1 2-2h9l5 5v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"/><path d="M9 10h6M9 14h4"/></svg>
+                </span>
+                <h3>Perguntas se repetem</h3>
+                <p>Capacidade, valores, disponibilidade, cardápio — sua equipe digita a mesma resposta dezenas de vezes por semana.</p>
+            </div>
+            <div class="pain-card reveal">
+                <span class="glyph">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="10" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                </span>
+                <h3>Ninguém sabe quem é prioridade</h3>
+                <p>Leads quentes ficam no meio da caixa de entrada, misturados com curiosos — e esfriam antes de alguém perceber.</p>
+            </div>
+        </div>
+        <div class="pain-arrow reveal">
+            <svg width="22" height="34" viewBox="0 0 22 34" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M11 1v30M2 23l9 9 9-9"/></svg>
+        </div>
+        <p class="pain-flip reveal">A Hevo assume a <em>primeira conversa</em> — pra sua equipe assumir só o que já está <em>pronto pra fechar</em>.</p>
+    </div>
+</section>
+
+<section class="section" id="como-funciona">
+    <div class="wrap">
+        <div class="section-head reveal">
+            <span class="eyebrow">Como funciona</span>
+            <h2>Do "oi" à visita agendada, sem sua equipe digitar nada.</h2>
+        </div>
+        <div class="steps">
+            <div class="step reveal">
+                <div class="step-num">1</div>
+                <h3>Lead manda mensagem</h3>
+                <p>No WhatsApp do seu espaço, do jeito que já usa hoje — a Hevo entra na conversa em segundos.</p>
+            </div>
+            <div class="step reveal">
+                <div class="step-num">2</div>
+                <h3>A IA qualifica</h3>
+                <p>Entende tipo de evento, data, convidados e orçamento, e responde com as informações certas do seu espaço.</p>
+            </div>
+            <div class="step reveal">
+                <div class="step-num">3</div>
+                <h3>Entra no funil sozinho</h3>
+                <p>O lead aparece no seu CRM já pontuado e na etapa certa — sem ninguém copiar e colar em planilha.</p>
+            </div>
+            <div class="step reveal">
+                <div class="step-num">4</div>
+                <h3>Sua equipe assume</h3>
+                <p>Quando o cliente pede um humano ou o momento é de fechar, a IA pausa e avisa quem precisa agir.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-surface" id="produto">
+    <div class="wrap">
+        <div class="section-head reveal">
+            <span class="eyebrow">Produto</span>
+            <h2>Tudo o que era WhatsApp bagunçado vira pipeline.</h2>
+        </div>
+
+        <div class="showcase">
+            <div class="feature-row reveal">
+                <div class="feature-copy">
+                    <span class="eyebrow">CRM &amp; kanban</span>
+                    <h3>Cada lead, na etapa certa — sem esforço manual.</h3>
+                    <p>Os leads se organizam sozinhos por estágio, com alertas de urgência e de quem está esperando atendimento humano.</p>
+                    <ul class="feature-list">
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Score de intenção calculado pela IA em cada lead</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Labels e urgência pra achar quem importa primeiro</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Histórico completo da conversa, sempre à mão</li>
+                    </ul>
+                </div>
+                <div class="feature-visual">
+                    <div class="desktop-frame">
+                        <div class="desktop-bar"><span></span><span></span><span></span></div>
+                        <div class="desktop-screen">
+                            <div class="mini-sidebar">
+                                <div class="m-brand">hevo</div>
+                                <div class="m-item active">Leads</div>
+                                <div class="m-item">Agenda</div>
+                                <div class="m-item">Base de Conhecimento</div>
+                            </div>
+                            <div class="mini-main">
+                                <div class="mini-title">Leads · Kanban</div>
+                                <div class="mini-board">
+                                    <div class="mini-col">
+                                        <div class="mini-col-head">Novo</div>
+                                        <div class="mini-card"><strong>Ana Beatriz</strong><small>Aniversário</small></div>
+                                    </div>
+                                    <div class="mini-col">
+                                        <div class="mini-col-head">Qualificado</div>
+                                        <div class="mini-card ok"><strong>Carlos Eduardo</strong><small>score 45</small></div>
+                                    </div>
+                                    <div class="mini-col">
+                                        <div class="mini-col-head">Negociação</div>
+                                        <div class="mini-card warn"><strong>Marcos Almeida</strong><small>score 79</small></div>
+                                        <div class="mini-card danger"><strong>Fernanda Oliveira</strong><small>urgente</small></div>
+                                    </div>
+                                    <div class="mini-col">
+                                        <div class="mini-col-head">Concluído</div>
+                                        <div class="mini-card ok"><strong>Diego Martins</strong><small>visita feita</small></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feature-row reverse reveal">
+                <div class="feature-copy">
+                    <span class="eyebrow">Dashboard</span>
+                    <h3>Veja exatamente quando o seu WhatsApp mais lota.</h3>
+                    <p>Um painel com funil de conversão, novos leads por semana e um mapa de calor de horários — pra saber onde vale a pena reforçar atendimento.</p>
+                    <ul class="feature-list">
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Funil de conversão etapa a etapa</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Tráfego de conversas por dia e horário</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Taxa de conversão e score médio em tempo real</li>
+                    </ul>
+                </div>
+                <div class="feature-visual">
+                    <div class="desktop-frame">
+                        <div class="desktop-bar"><span></span><span></span><span></span></div>
+                        <div class="desktop-screen">
+                            <div class="mini-sidebar">
+                                <div class="m-brand">hevo</div>
+                                <div class="m-item active">Dashboard</div>
+                                <div class="m-item">Leads</div>
+                                <div class="m-item">Agenda</div>
+                            </div>
+                            <div class="mini-main">
+                                <div class="mini-title">Dashboard · 30 dias</div>
+                                <div class="mini-stats">
+                                    <div class="mini-stat"><strong>9</strong><span>total de leads</span></div>
+                                    <div class="mini-stat"><strong>100%</strong><span>conversão</span></div>
+                                    <div class="mini-stat"><strong>73,3</strong><span>score médio</span></div>
+                                </div>
+                                <div class="mini-col-head">Tráfego de conversa</div>
+                                <div class="mini-heat" aria-hidden="true"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feature-row reveal">
+                <div class="feature-copy">
+                    <span class="eyebrow">Escalonamento humano</span>
+                    <h3>A IA sabe a hora de te chamar.</h3>
+                    <p>Quando o cliente pede pra falar com uma pessoa — ou o momento pede — a Hevo pausa as respostas automáticas e avisa a sua equipe na hora.</p>
+                    <ul class="feature-list">
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Aviso automático assim que o atendimento é solicitado</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Respostas automáticas pausadas até alguém assumir</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Zero conversa importante perdida no meio do fluxo</li>
+                    </ul>
+                </div>
+                <div class="feature-visual">
+                    <div class="desktop-frame">
+                        <div class="desktop-bar"><span></span><span></span><span></span></div>
+                        <div class="desktop-screen">
+                            <div class="mini-sidebar">
+                                <div class="m-brand">hevo</div>
+                                <div class="m-item">Dashboard</div>
+                                <div class="m-item active">Leads</div>
+                                <div class="m-item">Agenda</div>
+                            </div>
+                            <div class="mini-main">
+                                <div class="mini-title">Camila Rodrigues · 5551909876543</div>
+                                <div class="mini-card danger" style="margin-bottom:10px;">
+                                    <strong>Atendimento humano solicitado</strong>
+                                    <small>há 4 minutos · respostas automáticas pausadas</small>
+                                </div>
+                                <div class="mini-card"><strong>Score</strong><small>91 · sentimento positivo</small></div>
+                                <div class="mini-card"><strong>Orçamento estimado</strong><small>R$ 95.000,00 · 250 convidados</small></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-ivory" id="depoimentos">
+    <div class="wrap">
+        <div class="section-head reveal">
+            <span class="eyebrow">Depoimentos</span>
+            <h2>Donos de espaço contam como ficou depois da Hevo.</h2>
+        </div>
+        <div class="testimonial-grid">
+            <div class="t-card reveal">
+                <div class="t-stat">+38%<span>em visitas agendadas</span></div>
+                <p class="t-quote">"Antes a gente perdia casal pra concorrente só porque demorava a responder à noite. Hoje a conversa já começa andando quando eu chego de manhã."</p>
+                <div class="t-person">
+                    <span class="t-avatar"><img src="assets/img/testimonials/m3.png" alt="" width="36" height="36"></span>
+                    <div>
+                        <strong>Renata Martins</strong>
+                        <p>Espaço Vila Jasmim</p>
+                        <p>Cliente desde jan/2026</p>
+                    </div>
+                </div>
+            </div>
+            <div class="t-card reveal">
+                <div class="t-stat">–70%<span>no tempo até 1ª resposta</span></div>
+                <p class="t-quote">"Minha equipe parou de repetir a mesma resposta o dia inteiro. Agora só entra na conversa quando o lead já está quente."</p>
+                <div class="t-person">
+                    <span class="t-avatar"><img src="assets/img/testimonials/h1.png" alt="" width="36" height="36"></span>
+                    <div>
+                        <strong>Thiago Andrade</strong>
+                        <p>Espaço Casa Alvorada</p>
+                        <p>Cliente desde mar/2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="t-card reveal">
+                <div class="t-stat">+22<span>visitas a mais por mês, sem contratar mais gente</span></div>
+                <p class="t-quote">"O painel me mostrou que a maioria das mensagens chegava depois das 21h. Sem a Hevo, eu nunca teria visto isso — muito menos resolvido."</p>
+                <div class="t-person">
+                    <span class="t-avatar"><img src="assets/img/testimonials/m2.png" alt="" width="36" height="36"></span>
+                    <div><strong></strong><span></span></div>
+                    <div>
+                        <strong>Luiza Carvalho</strong>
+                        <p>Terra Nova Eventos</p>
+                        <p>Cliente desde dez/2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="t-card reveal">
+                <div class="t-stat">+15%<span>no ticket médio dos eventos fechados</span></div>
+                <p class="t-quote">"A IA já filtra o orçamento antes de chegar pra gente. Hoje só assumimos a conversa quando já sabemos que tem fit com o que oferecemos."</p>
+                <div class="t-person">
+                    <span class="t-avatar"><img src="assets/img/testimonials/h2.png" alt="" width="36" height="36"></span>
+                    <div>
+                        <strong>Roberto Nascimento</strong>
+                        <p>Chácara Boa Vista</p>
+                        <p>Cliente desde abr/2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="t-card reveal">
+                <div class="t-stat">100%<span>dos leads urgentes atendidos no mesmo dia</span></div>
+                <p class="t-quote">"Antes um pedido de atendimento humano podia passar horas sem ninguém ver. Agora o alerta chega direto pra mim, e a IA já segura a conversa até eu assumir."</p>
+                <div class="t-person">
+                    <span class="t-avatar"><img src="assets/img/testimonials/h3.png" alt="" width="36" height="36"></span>
+                    <div>
+                        <strong>Fábio Ribeiro</strong>
+                        <p>Espaço Recanto dos Ipês</p>
+                        <p>Cliente desde jun/2025</p>
+                    </div>
+                </div>
+            </div>
+            <div class="t-card reveal">
+                <div class="t-stat">–5h<span>por semana em respostas repetidas</span></div>
+                <p class="t-quote">"Montamos a base de conhecimento numa tarde e a Hevo já saiu respondendo do jeito que minha equipe respondia. Esse tempo eu não perco mais."</p>
+                <div class="t-person">
+                    <span class="t-avatar"><img src="assets/img/testimonials/m1.png" alt="" width="36" height="36"></span>
+                    <div>
+                        <strong>Beatriz Lemos</strong>
+                        <p>Flor de Lis Eventos</p>
+                        <p>Cliente desde jan/2025</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta-band" id="contato">
+    <div class="wrap reveal">
+        <span class="eyebrow eyebrow-on-dark">Pronto pra começar</span>
+        <h2>Sua próxima visita agendada pode estar chegando agora no WhatsApp.</h2>
+        <p>A gente configura a Hevo junto com você e com a base de conhecimento do seu espaço — sem letra miúda.</p>
+        <div class="hero-actions">
+            <a class="btn btn-on-dark btn-lg" href="https://wa.me/5561920046874?text=Ol%C3%A1!%20Quero%20conhecer%20a%20Hevo." target="_blank" rel="noopener">Peça uma demonstração</a>
+            <a class="btn btn-ghost btn-lg btn-ghost-on-dark" href="https://wa.me/5561920046874" target="_blank" rel="noopener">Falar com a gente</a>
+        </div>
+        <p class="hero-note">+55 61 92004-6874</p>
+    </div>
+</section>
+
+<footer>
+    <div class="wrap">
+        <div class="foot-row">
+            <div class="foot-brand">
+                <img class="brand-mark brand-mark-outline" src="assets/img/white_hevo_logo.png" alt="hevo">
+            </div>
+            <div class="foot-links">
+                <a href="#produto">Produto</a>
+                <a href="#como-funciona">Como funciona</a>
+                <a href="#depoimentos">Depoimentos</a>
+                <a href="https://wa.me/5561920046874" target="_blank" rel="noopener">Contato</a>
+            </div>
+        </div>
+        <p class="foot-fine">© <span id="year"></span> Hevo. Agente de vendas com IA para espaços de casamento e eventos.</p>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
