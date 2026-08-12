@@ -662,29 +662,29 @@ p { margin: 0; }
 
 /* ---------- tech spotlight ---------- */
 
-.tech-band {
+.ia-band {
     background: var(--teal-deep);
     padding: 100px 0;
 }
 
-.tech-band .section-head h2 { color: #fff; }
-.tech-band .section-head p { color: #b9cdd1; }
+.ia-band .section-head h2 { color: #fff; }
+.ia-band .section-head p { color: #b9cdd1; }
 
-.tech-grid {
+.ia-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     margin-top: 56px;
 }
 
-.tech-card {
+.ia-card {
     background: rgba(255, 255, 255, 0.04);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: var(--radius-lg);
     padding: 28px 24px;
 }
 
-.tech-card .glyph {
+.ia-card .glyph {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -694,16 +694,16 @@ p { margin: 0; }
     margin-bottom: 20px;
 }
 
-.tech-card .glyph svg { width: 18px; height: 18px; color: var(--gold); }
+.ia-card .glyph svg { width: 18px; height: 18px; color: var(--gold); }
 
-.tech-card h3 {
+.ia-card h3 {
     font-family: var(--font-sans);
     font-size: 1rem;
     font-weight: 700;
     color: #fff;
 }
 
-.tech-card p {
+.ia-card p {
     margin-top: 10px;
     font-size: 0.88rem;
     color: #9fb8bc;
@@ -1035,7 +1035,7 @@ footer {
     .hero .wrap { grid-template-columns: 1fr; }
     .hero-stage { margin-top: 40px; }
     .pain-grid { grid-template-columns: 1fr; }
-    .tech-grid { grid-template-columns: 1fr 1fr; }
+    .ia-grid { grid-template-columns: 1fr 1fr; }
     .steps { grid-template-columns: 1fr 1fr; row-gap: 40px; }
     .steps::before { display: none; }
     .feature-row, .feature-row.reverse { grid-template-columns: 1fr; }
@@ -1063,8 +1063,8 @@ footer {
     .hero { padding: 60px 0 20px; }
     .hero-badge { display: none; }
     .section { padding: 64px 0; }
-    .tech-band { padding: 64px 0; }
-    .tech-grid { grid-template-columns: 1fr; }
+    .ia-band { padding: 64px 0; }
+    .ia-grid { grid-template-columns: 1fr; }
     .steps { grid-template-columns: 1fr; }
     .desktop-screen { flex-direction: column; }
     .mini-sidebar { width: 100%; display: flex; gap: 8px; align-items: center; }
