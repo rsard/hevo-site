@@ -1013,9 +1013,11 @@ footer {
 
 .brand-mark-outline { width: 64px; }
 
-.foot-links { display: flex; gap: 26px; font-size: 0.84rem; }
+.foot-links { display: flex; align-items: center; gap: 26px; font-size: 0.84rem; }
 .foot-links a { text-decoration: none; color: #9db9bd; }
 .foot-links a:hover { color: #fff; }
+.foot-links a.foot-social { display: inline-flex; }
+.foot-links a.foot-social svg { width: 18px; height: 18px; }
 
 .foot-fine { font-size: 0.78rem; margin-top: 20px; color: #4f6a6f; }
 
