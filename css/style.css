@@ -1075,7 +1075,7 @@ footer {
 .foot-brand {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 24px;
     font-family: var(--font-display);
     color: #fff;
     font-size: 1.05rem;
