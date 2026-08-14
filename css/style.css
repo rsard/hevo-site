@@ -985,7 +985,7 @@ p { margin: 0; }
 .cta-band .hero-actions { justify-content: center; margin-top: 34px; }
 .cta-band .hero-note { color: #7fa0a7; }
 
-/* ---------- legal / política de privacidade ---------- */
+/* ---------- legal / política de privacidade e termos de uso ---------- */
 
 .legal-hero {
     background: var(--teal-deep);
@@ -1019,6 +1019,13 @@ p { margin: 0; }
 }
 
 .legal-body a { color: var(--teal); text-decoration: underline; }
+
+.legal-caps {
+    font-size: 0.88rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+}
 
 .legal-body h2 {
     margin-top: 52px;
