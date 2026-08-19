@@ -54,26 +54,7 @@
 
     p { margin: 0; }
 
-    .eyebrow {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        font-family: var(--font-sans);
-        font-size: 0.78rem;
-        font-weight: 700;
-        letter-spacing: 0.14em;
-        text-transform: uppercase;
-        color: var(--gold);
-        margin-bottom: 18px;
-    }
-
-    .eyebrow::before {
-        content: '';
-        width: 22px;
-        height: 2px;
-        background: var(--gold);
-        display: inline-block;
-    }
+    .eyebrow { margin-bottom: 18px; }
 
     /* ---------- nav dots ---------- */
 
@@ -191,7 +172,6 @@
         color: #fff;
     }
 
-    #solucao .eyebrow { color: var(--gold); }
     #solucao h2 { font-size: clamp(2rem, 4.2vw, 3rem); color: #fff; max-width: 780px; }
     #solucao h2 em { color: var(--gold); font-style: normal; }
 
@@ -415,14 +395,6 @@
         position: relative;
     }
 
-    .step .step-num {
-        font-family: var(--font-display);
-        font-size: 1.3rem;
-        color: var(--teal);
-        display: block;
-        margin-bottom: 10px;
-    }
-
     .step h3 { font-size: 0.92rem; font-family: var(--font-sans); font-weight: 700; margin-bottom: 6px; }
     .step p { font-size: 0.82rem; color: var(--ink-soft); }
 
@@ -436,7 +408,6 @@
     /* ---------- testimonials ---------- */
 
     #depoimentos { background: var(--teal-deep); color: #fff; }
-    #depoimentos .eyebrow { color: var(--gold); }
     #depoimentos h2 { font-size: clamp(1.9rem, 4vw, 2.6rem); color: #fff; max-width: 720px; }
 
     .t-grid {
@@ -598,7 +569,7 @@
 
 <section id="solucao">
     <div class="wrap">
-        <span class="eyebrow reveal">A solução</span>
+        <span class="eyebrow eyebrow-on-dark reveal">A solução</span>
         <h2 class="reveal">Enquanto você dorme, a <em>Hevo</em> já qualificou o próximo evento.</h2>
         <div class="journey">
             <div class="journey-step reveal">
@@ -823,7 +794,7 @@
 
 <section id="depoimentos">
     <div class="wrap">
-        <span class="eyebrow reveal">Quem já usa</span>
+        <span class="eyebrow eyebrow-on-dark reveal">Quem já usa</span>
         <h2 class="reveal">Donos de espaço contam como ficou depois da Hevo.</h2>
         <div class="t-grid">
             <div class="t-card reveal">
@@ -875,7 +846,7 @@
 
 <section id="cta">
     <div class="wrap">
-        <span class="eyebrow reveal" style="justify-content: center;">Pronto pra começar</span>
+        <span class="eyebrow eyebrow-on-dark reveal" style="justify-content: center;">Pronto pra começar</span>
         <h2 class="reveal">Sua próxima visita agendada pode estar chegando agora no WhatsApp.</h2>
         <p class="lede reveal">A gente configura a Hevo junto com você e com a base de conhecimento do seu espaço.</p>
         <div class="cta-actions reveal">
